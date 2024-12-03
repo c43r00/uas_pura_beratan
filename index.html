@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+ position: relative;
+ height: 500px;
+ background: url('pura2.jpg') no-repeat center center;
+ background-size: cover;
+ color: white;
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+        }
+
+.header h1 {
+  font-size: 50px;
+}
+
+.navigation {
+            background-color: #2c3e50;
+            display: flex;
+            justify-content: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .navigation a {
+            color: white;
+            text-align: center;
+            padding: 15px 25px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        .navigation a:hover {
+            background-color: #34495e;
+            color: #ecf0f1;
+        }
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  height: 70px; /* You can adjust this height as needed */
+  width: 100%;
+  background-color: #ccc; /* Placeholder color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="header-overlay"></div>
+    <div class="header-content">
+        <h1 style="font-size: 3.5rem; margin-bottom: 15px;">Pura Ulun Danu Beratan</h1>
+        <h3 style="font-size: 1.8rem;">Keindahan Spiritual di Bali</h3>
+    </div>
+</div>
+
+<nav class="navigation">
+  <a href="#index">Sejarah</a>
+  <a href="caca.html">Kompleks Pura</a>
+  <a href="ditadesainweb.html">Rute Perjalanan</a>
+</nav>
+
+<div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <h2>Sejarah Pura Ulun Danu Beratan</h2>
+                <img src="ulundanu.jpg" alt="pura" style="width: 100%; height: auto;">
+                <p>Pura Ulun Danu Beratan di Danau Beratan, Desa Candikuning, Kecamatan Baturiti, Kabupaten Tabanan, Bali.</p>
+                <p>Pura Ulun Danu Beratan ini mengacu pada lontar (naskah kuno) Babad Mengwi. Menurut naskah tersebut, Raja Mengwi kala itu, I Gusti Agung Putu, membangun Pura Ulun Danu Beratan sebelum pembangunan Pura Taman Ayun.
+                <p>Taman Ayun sendiri merupakan peninggalan bersejarah Kerajaan Mengwi yang berlokasi di Kabupaten Badung, yaitu 40 km dari Danu Beratan di Kabupaten Tabanan. Hanya saja, Babad Mengwi tidak menyebutkan secara pasti kapan tepatnya pembangunan Pura Beratan. Meski begitu, naskah tersebut memberikan penjelasan bahwa Pura Taman Ayun dibangun dengan upacara pada hari Anggara tahun Caka/Saka 1556 (1634 Masehi).</p>
+                <p>Dengan berbagai informasi dari Babad Mengwi, diambillah kesimpulan bahwa pembangunan Pura Ulun Danu terjadi sebelum pembangunan Taman Ayun. Oleh karena itu, tidak sedikit menyebutkan bahwa Pura Beratan telah berdiri sejak tahun 1633.</p>
+                <P>Sejarah Pura Ulun Danu Beratan ini berawal dari kekalahan I Gusti Agung Putu dalam melawan I Gusti Ngurah Batu Tumpeng. Akibat kekalahannya, sang raja melakukan tapa semedi di puncak Gunung Mangu untuk memohon pencerahan dan kesaktian. Setelah memperoleh berkat, ia pun bangkit dan mulai mendirikan istana Belayu (bela ayu).</P>
+                <P>I Gusti Agung Putu juga kembali berperang melawan I Gusti Ngurah Batu Tumpeng dan berhasil memenangkan pertempuran. Setelah kemenangan itu, sang raja kemudian mendirikan pura di tepi Danau Beratan yang kini tersohor dengan nama Pura Ulun Danu Beratan. Pura ini bahkan pernah menjadi gambar uang Rp50.000 edisi tahun 2016.</P>
+                <P>Pura Ulun Danu Beratan sendiri dipelihara atau diempon oleh 4 desa satakan, yang terdiri atas; satakan Bangah yang terdiri dari 3 bendesa adat, satakan Antapan yang mewilayahi 4 bendesa adat, satakan Candi Kuning yang mewilayahi 5 bendesa adat, dan satakan Baturiti yang mewilayahi 6 bendesa adat.
+                <P>Selain sejarah Pura Ulun Danu Beratan, Babad Mengwi juga mengungkapkan keberadaan dua peninggalan sejarah, yaitu sarkofagus dan papan batu. Keduanya terbilang kuno karena berasal dari zaman Megalitikum, yaitu sekitar tahun 500 Sebelum Masehi. Adanya kedua peninggalan bersejarah ini menunjukkan bahwa kawasan pura telah menjadi tempat ritual sejak zaman tersebut serta menjadikannya salah satu pura kuno di Bali.</P>
+                <P>Hingga kini, sarkofagus dan papan batu masih ada dan tersimpan di dalam pura.</P>
+                </p>
+            </div>
+        </div>
+      <div class="rightcolumn">
+
+        <div class="card">
+          <h2>Tentang Kami</h2>
+          <p style="color: #34495e; margin-top: 20px;">Melalui situs web ini, kami berharap dapat memberikan informasi yang komprehensif dan menarik tentang kompleks pura, sejarah, dan makna spiritual Pura Ulun Danu Beratan bagi pengunjung. Kami ingin membantu Anda menyelami keindahan dan keunikan tempat ini, serta menghargai warisan budaya Bali yang luar biasa.</p>
+        </div>
+
+        <div class="card">
+          <h2>DDC</h2>
+          <img src="ddc1.jpg" alt="About Me" style="width:100%; height:auto;">
+        </div>
+
+        <div class="card">
+          <h3 style="color: #2c3e50; margin-bottom: 20px; font-size: 1.8rem;">Sosial Media</h3>
+          <ul style="list-style-type: none;">
+             <a href="https://www.instagram.com/cacaa.890?igsh=czU4a3RjbmJiaHU1"><li style="color: #34495e; margin-bottom: 10px; padding: 10px; background-color: #f1f2f6; border-radius: 5px;">Ni Made Erna Suciati</li></a>
+              <a href="https://www.instagram.com/deanataliie?igsh=MXRxY295OHNqZnE0Nw=="><li style="color: #34495e; margin-bottom: 10px; padding: 10px; background-color: #f1f2f6; border-radius: 5px;">Ni Putu Dea Natalie</li></a>
+              <a href="https://www.instagram.com/ditaauliaa___/"><li style="color: #34495e; padding: 10px; background-color: #f1f2f6; border-radius: 5px;">Ni Putu Dita Aulia</li></a>
+          </ul>
+      </div>
+
+      <div class="card">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7896.548551783633!2d115.15789773566277!3d-8.275476699865594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd1896c9fac0857%3A0x18246568e4db1b53!2sPura%20Ulun%20Danu%20Beratan%20Bedugul!5e0!3m2!1sid!2sid!4v1733135261559!5m2!1sid!2sid" width="250px" height="250px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+ 
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p>&copy; 2024 Pura Ulun Danu Beratan - Warisan Budaya Bali. Hak Cipta Dilindungi.</p>
+    </footer>
+
+</body>
+</html>
